@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.961" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-13T10:35:06.329291400Z">
+<testcase classname="Add products to basket" name="Add product to basket and verify" time="6.535">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at StepDefinition.DesignTestCase.user_should_enter_url_in_browser(DesignTestCase.java:22)
+	at ✽.User should enter url in browser(file:///C:/Users/ashwin.murugan/eclipse-workspace/DemoMaven/Features/AddProductsHB.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User should launch Browser............................................passed
+When User should enter url in browser.......................................failed
+Then User should enter email address in text box............................skipped
+Then User should enter password in text box.................................skipped
+Then User should click signin button........................................skipped
+And Verify you successfully login in........................................skipped
+Then User should click on Hamburger icon....................................skipped
+Then User should click on Shop..............................................skipped
+Then User should click Vitamins & Supplements in menu.......................skipped
+Then User should click on the vitamins in menu..............................skipped
+Then User should click on the vitamin C product.............................skipped
+Then User should choose a product and click on add to basket button.........skipped
+Then User should click on Hamburger icon....................................skipped
+Then User should click on Shop..............................................skipped
+Then User should click on Vegan.............................................skipped
+Then User should click the Vegan chocolate in menu..........................skipped
+Then User should choose a product and click on the add to basket button.....skipped
+Then User should click your basket icon button..............................skipped
+And Verify the products present in the basket...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.499" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-13T08:51:54.819285600Z">
+<testcase classname="Create an Account for Holland and Barrett" name="Checking Create Account Functionality" time="16.361">
+<system-out><![CDATA[
+Given User should launch Chome Browser......................................passed
+When User should enter url in browser.......................................passed
+Then User should enter First name in Edit box...............................passed
+Then User should enter Last name in edit box................................passed
+Then User should enter Email address........................................passed
+Then User should enter Confirm email address................................passed
+Then User Should enter Create a password in edit box........................passed
+Then User Should select Menus...............................................passed
+Then Click on Create an Account button......................................passed
+Then System should display Account created sucessfully......................passed
+And Verify the title of the page............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
