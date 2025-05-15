@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.986" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-15T03:59:59.089275900Z">
+<testcase classname="Page Object Model for Customers" name="Add a new Customer" time="28.713">
+<system-out><![CDATA[
+Given User launch Egde browsere.............................................passed
+When User should enter the URL "https://admin-demo.nopcommerce.com/Admin/Customer/Create".passed
+Then User can view Add new customer page....................................passed
+When User enter customer info...............................................passed
+And click on Save button....................................................passed
+Then User can view confirmation message "The new customer has been added successfully.".passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
