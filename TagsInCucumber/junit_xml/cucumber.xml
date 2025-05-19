@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.124" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-05-15T05:06:07.276459200Z">
+<testcase classname="Page Object Model for Customers" name="Sample 2" time="0.012">
+</testcase>
+<testcase classname="Page Object Model for Customers" name="Sample 5" time="0">
+</testcase>
+<testcase classname="Create and Login for NopEcommerce Application" name="Sample 2" time="0.004">
+</testcase>
+</testsuite>
